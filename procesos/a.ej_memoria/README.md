@@ -1,0 +1,5 @@
+# A-Consigna y programa para analizar ej_memoria.c
+
+Descargue el archivo ej_memoria.c. Trabajando desde una computadora o máquina virtual con Linux (puede ser la misma que utilizarán para el trabajo práctico), compílelo desde una consola utilizando el comando "gcc ej_memoria.c -o ej_memoria" para crear el ejecutable. Luego para ejecutar el programa utilice ./ej_memoria. Ejecute el programa tantas veces como necesite para realizar el análisis.
+
+Abra una segunda consola para ejecutar un administrador de procesos necesario para realizar la actividad. Será de gran utilidad que mientras se ejecute el programa ej_memoria en la primera consola, pueda visualizar en ésta segunda consola el programa HTOP para ver los cambios que se producen en el proceso. Puede abrirlo con el comando "htop -d 2/10". Una vez abierto HTOP, puede filtrar la lista de procesos del sistema presionando F4 y luego escribiendo ej_memoria, para mostrar sólo el proceso en cuestión y facilitar su análisis.
